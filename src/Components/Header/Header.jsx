@@ -34,7 +34,8 @@ export default function Header() {
             <p className="font-extrabold"> E-comm</p>
           </Link>
           <div className="flex items-center lg:order-2">
-            {isLoggedIn === (null || "false") ? (
+            {isLoggedIn === null || "false" ? (
+              
               <>
                 <NavLink
                   to="signup"
