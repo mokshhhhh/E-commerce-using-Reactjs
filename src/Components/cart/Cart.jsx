@@ -126,14 +126,14 @@ const Cart = () => {
         })
       ) : (
         <div>
-          <p className=" bg-white w-1/2 mx-auto rounded-lg  text-6xl my-auto ">
+          <p className=" bg-white w-1/2 mx-auto rounded-lg  text-6xl mt-32 ">
             {" "}
             Your cart is Empty. Start shopping!{" "}
           </p>
           <button
             type="button"
             onClick={handleToHome}
-            className="mt-5 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-2xl text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            className="my-12 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-2xl text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
           >
             Shop Now
           </button>
