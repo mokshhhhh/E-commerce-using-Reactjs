@@ -15,7 +15,6 @@ export default function ProtectedRoute() {
     }
   }, [localData]);
   if (isAuthenticated === false) {
-    console.log("kfjgnmkldmkljnh");
   } else {
     return <Outlet />;
   }

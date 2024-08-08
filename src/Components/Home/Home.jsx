@@ -25,7 +25,7 @@ export default function Home() {
       {user.map((obj) => (
         <div
           key={obj.id}
-          className="  lg:w-1/4 md:w-1/2 sm:w-full: max-w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-white dark:border-white my-8 py-3 px-2 mx-1 flex flex-col justify-between"
+          className="  lg:w-1/4 md:w-1/2 sm:w-full  max-w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-white dark:border-white my-8 py-3 px-2 mx-1 flex flex-col justify-between"
         >
           <img
             className="w-[300px] h-[300px] object-contain max-h-3rounded-lg mx-auto px-2  hover:scale-110 duration-1000"

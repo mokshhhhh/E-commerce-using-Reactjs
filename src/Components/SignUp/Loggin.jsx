@@ -20,7 +20,6 @@ export default function Loggin() {
           values.password === loggedUser.password
         ) {
             localStorage.setItem("isLoggedIn","true")
-          console.log("success");
           navigate("/products");
           
         } else {
@@ -33,7 +32,7 @@ export default function Loggin() {
     });
   return (
     <div className="signupContainer flex items-center h-screen bg-repeat bg-[url('https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L25zMTQ0MDktaW1hZ2Uta3d2d283NHkuanBn.jpg')]   bg-blend-multiply ">
-      <div className=" flex-col w-1/3 rounded-lg bg-gray-200 bg-opacity-70 mx-auto my-auto  border-2 box-border px-1 py-3 shadow-md ">
+      <div className="  sm:w-full lg:flex-col lg:w-1/3 rounded-lg bg-gray-200 bg-opacity-70 mx-auto my-auto  border-2 box-border px-1 py-3 shadow-md ">
         <form onSubmit={handleSubmit}
         >
           <h1 className="text-3xl mt-10 font-bold text-gray-800">
