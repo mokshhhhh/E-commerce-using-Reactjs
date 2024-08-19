@@ -8,7 +8,7 @@ export default function Welcome() {
         <section className="  bg-center bg-no-repeat bg-[url('https://www.searchenginejournal.com/wp-content/uploads/2022/08/google-shopping-ads-6304dccb7a49e-sej-1280x720.png')] bg-opacity-60 bg-gray-800 bg-blend-multiply">
           <div className="  object-contain mx-auto max-w-screen-xl text-center py-24 lg:py-56">
             <h1 className=" text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
-              Welcome to Fake E-commerce Website
+              Welcome to the E-comm Website
             </h1>
             <p className="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">
               {" "}
